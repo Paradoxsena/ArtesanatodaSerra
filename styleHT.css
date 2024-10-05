@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.menu{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #388E3C;
+    border-bottom: #326134 3px solid;
+    color: #FFF3E0;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    font-size: x-large;
+}
+
+.menu li{
+    padding-right: 50px;
+}
+
+body{
+    background-color: #FFF3E0;
+    background: url(img/barbante-artesanato-2-scaled-1.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main{
+    background-color: #FFF3E0;
+    border: #e2d3bb 3px solid;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 100px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 80%;
+}
+
+.main h2{
+    margin-bottom: 20px;
+}
+
+mark{
+    background-color: #D32F2F;
+    padding: 3px;
+    color: #FFF3E0;
+    border-radius: 30px;
+}
+
+mark:hover{
+    color: #D32F2F;
+    background-color: aliceblue;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #D32F2F;
+}
+
+input{
+    margin-top: 50px;
+    background-color: #FFF3E0;
+    border-radius: 10px;
+    padding-bottom: 100px;
+}
+
+button{
+    background-color: #D32F2F;
+    color: #FFF3E0;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    color: #D32F2F;
+    background-color: aliceblue;
+}
+
+span{
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #795548;
+    border-top: #5e4942 3px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 700px;
+    padding-top: 10px;
+    margin-top: 420px;
+    display: flex;
+}
+
+footer p{
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #FFF3E0;
+}
+
+.redes{
+    margin-left: 30px;
+    margin-top: 10px;
+}

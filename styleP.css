@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.menu{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #388E3C;
+    color: #FFF3E0;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    font-size: x-large;
+}
+
+.menu li{
+    padding-right: 50px;
+}
+
+body{
+    background-color: #FFF3E0;
+    background: url(img/barbante-artesanato-2-scaled-1.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #D32F2F;
+}
+
+.main{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #FFF3E0;
+    border: #e2d3bb 3px solid;
+    border-radius: 30px;
+    opacity: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.produtos > div{
+    margin: 10px;
+    margin: 10px;
+
+}
+
+.produtos2{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.main > h2{
+    color: #68483C;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+
+
+.toalha{
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+.pilao{
+    margin-top: 150px;
+    margin-right: 10px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+
+}
+
+.cx1{
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.maracuja{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 30px;
+    padding-bottom: 80px;
+}
+
+span{
+    color: green;
+}
+
+button{
+    background-color: #D32F2F;
+    color: #FFF3E0;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #D32F2F;
+    background-color: aliceblue;
+}
+
+b{
+    color: gold;
+}
+
+footer{
+    background-color: #795548;
+    border-top: #5e4942 3px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 700px;
+    padding-top: 10px;
+    margin-top: 420px;
+    display: flex;
+}
+
+footer p{
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #FFF3E0;
+}
+
+.redes{
+    margin-left: 30px;
+    margin-top: 10px;
+}
